@@ -6,4 +6,6 @@ const DB_USER = process.env.DB_USER || "postgres";
 
 const DB_PASSWORD = process.env.DB_PASSWORD || "4844998casa";
 
-module.exports = { PORT, DB_HOST, DB_PASSWORD, DB_USER};
+const DB_DEPLOY = process.env.DB_DEPLOY
+
+module.exports = { PORT, DB_HOST, DB_PASSWORD, DB_USER, DB_DEPLOY, };
